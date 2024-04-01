@@ -1,0 +1,80 @@
+body{
+  font-style  :'PT SANS ',sans-serif;
+  background-color:#252529;
+  margin:.0;
+  color:#FFF;
+  line-height: 1.6;
+}
+
+a{
+text-decoration: none;
+color:#c3c3c3;
+}
+#showcase{
+margin:.0;
+padding:0;
+background: url('https://tse4.mm.bing.net/th?id=OIP.11S8Y3k0ZPlfnCIgU-FpnwHaFj&pid=Api&P=0&h=180') no-repeat center/cover;
+width:100%;
+height:100vh ;/*viewport-height-how user looks yors webpage*/
+position :relative;
+overflow-y:hidden;
+
+}
+#showcase .container{
+margin-top:25hv;
+}
+#showcase h1{
+font-size: 4rem;/*root-elements font size*/
+margin-bottom:0 ;
+}
+#showcase h2{
+font-size: 2rem;/*root-elements font size*/
+}
+
+.colour{
+  color:#ffebcd;
+}
+
+nav{
+height:40px;
+width:100%;
+background-color:#333 ;
+color:rgb(51,34,34);
+position:fixed;
+}
+nav ul{
+margin:0;
+padding:0;
+}
+nav li{
+display: inline;/*inside navigaion bar*/
+float:left;/*all lists come side by side from left side*/
+}
+nav a{
+display:inline-block;/*make as blocks*/
+width:100px;
+text-align: center;
+text-decoration: none;/*remove dots*/
+padding:10px 0;/*top-bottom  left-right*/
+color:#eee;
+}
+nav li:hover{
+background-color: #444;
+}
+.container{
+max-width: 1180px;
+text-align:center;
+margin:auto;
+padding:0 3rem;
+}
+.lead{
+font-size: 1.3rem;
+}
+
+footer .footer-bottom{
+  background-color:#333 ;
+  padding:1rem;
+  text-align:center;
+  
+}
+
